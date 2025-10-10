@@ -18,6 +18,7 @@ defmodule DiscussWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/topics/new", TopicController, :new
   end
 
   if Application.compile_env(:discuss, :dev_routes) do

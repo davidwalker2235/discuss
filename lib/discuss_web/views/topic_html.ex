@@ -1,4 +1,4 @@
-defmodule DiscussWeb.PageHTML do
+defmodule DiscussWeb.TopicHTML do
   @moduledoc """
   This module contains pages rendered by PageController.
 
@@ -6,5 +6,5 @@ defmodule DiscussWeb.PageHTML do
   """
   use DiscussWeb, :html
 
-  embed_templates "page_html/*"
+  embed_templates "../templates/topic/*"
 end
